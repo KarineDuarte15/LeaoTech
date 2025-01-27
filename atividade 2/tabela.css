@@ -2,8 +2,9 @@
 
 table {
  width: 100%;
+ border: 1px solid #000;
  border-collapse: collapse;
-  background-color: rgb(36, 170, 170);
+ background-color: rgb(156, 209, 209);
  }
 
   th, td {
@@ -13,7 +14,7 @@ table {
    }
 
     th {
-    background-color: #d02b2b;
+    background-color: #d74747;
     }
 
 
