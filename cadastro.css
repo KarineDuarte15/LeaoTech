@@ -1,0 +1,125 @@
+/* Definindo cores principais */
+:root {
+    --azul:  #020459;;
+    --verde: #56d72f;
+    --fundo--pagina: #020459;
+    --fundo-form: #db1414; 
+    --cor-texto: #ffffff;
+}
+
+/* Resetando algumas propriedades padrões */
+body, h1, form, input, button, label {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box
+    
+}
+
+/* Estilo global */
+body {
+    background-color: var(--fundo--pagina);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+
+    
+}
+
+/* Formulário */
+form {
+    background-color: var(--fundo-form);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Título do formulário */
+h1 {
+    text-align: center;
+    color: var(--azul);
+    margin-bottom: 20px;
+}
+
+/* Estilo dos inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Estilo para labels */
+label {
+    font-size: 14px;
+    color: var(--cor-texto);
+}
+
+/* Estilo dos radio buttons e checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Estilo para o botão */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--azul);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: var(--verde);
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Estilo dos campos de "gênero" e "perfil" */
+label[for="f"],
+label[for="m"] {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/* Estilo dos links */
+a {
+    display: block;
+    text-align: center;
+    color: var(--azul);
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Estilo global para imagem */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
